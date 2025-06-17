@@ -1,0 +1,131 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+a{
+    text-decoration: none;
+    color: #595959;
+}
+p{
+    margin: 0;
+}
+ul{
+    padding-left: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #E5E5E5;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sidebar {
+    background-color: #1E2939;
+    margin: 40px 0 40px 40px;
+    color: #FFFFFF;
+    width: 370px;
+}
+.sidebar a {
+    color: #949494;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sidebar a:hover {
+    color: #FB6D3A;
+    transition-duration: 200ms;
+}
+.sidebar_title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.aside_content{
+    margin-left: 40px;
+}
+.photo{
+    width: 370px;
+    margin-top: 40px;
+}
+.tech_skills_item {
+    color: #FB6D3A;
+}
+.tech_skills {
+   color: #949494;
+}
+.maincontent{
+    width: 1200px;
+    margin: 40px 40px 40px 0;
+    padding: 100px 0 110px 90px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.maincontent_child_1{
+    width: 400px;
+}
+.maincontent_child{
+    width: 525px;
+    margin-top: 40px;
+}
+.maincontent a:hover {
+    color: #FB6D3A;
+    transition-duration: 200ms;
+}
+.projects{
+    padding-left: 18px;
+}
+h4>a{
+    color: #FB6D3A;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h5 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main_li_item{
+    font-weight: bold;
+}
+.main_span_item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-weight: lighter;
+}
+.main_li_item_nonol>.main_li_item{
+    font-weight: 100;
+    color: #595959;
+}
+.maincontent_child>p{
+    font-size: 12px;
+}
+.main_content_term{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.title{
+    margin-bottom:10px ;
+    font-size: 22px;
+}
+.projects{
+    margin: 0;
+}
+.maincontent_child_2{
+    margin-top: 50px;
+}
